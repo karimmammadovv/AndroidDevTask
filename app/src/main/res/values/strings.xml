@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AndroidDevTechTask</string>
+    <string name="type_id">Category type</string>
+    <string name="cost_id">0</string>
+    <string name="azn_month">AZN / month</string>
+    <string name="view_statem">View statement</string>
+    <string name="expences">0</string>
+    <string name="balance">Expences</string>
+    <string name="incomings_value">0</string>
+    <string name="incomings">Incomings</string>
+    <string name="cashback_value">0</string>
+    <string name="cashback">Cashback</string>
+
+    <string-array name="Year">
+        <item>2020</item>
+        <item>2021</item>
+    </string-array>
+
+    <string-array name="Month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="Categories">
+        <item>Airlines</item>
+        <item>Rent A Car</item>
+        <item>Hotels and Motels</item>
+        <item>Transport</item>
+        <item>Cars and Vehicles</item>
+        <item>Government Services</item>
+    </string-array>
+</resources>

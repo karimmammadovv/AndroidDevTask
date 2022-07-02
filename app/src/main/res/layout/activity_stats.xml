@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".views.StatsActivity">
+
+    <RelativeLayout
+        android:id="@+id/frame_189"
+        android:layout_width="343dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="30dp">
+
+        <RelativeLayout
+            android:id="@+id/frame_186"
+            android:layout_width="114.33dp"
+            android:layout_height="64dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/expences"
+                android:layout_width="98.33dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+
+                android:gravity="center_horizontal|top"
+                android:text="@string/expences"
+                android:textAppearance="@style/expences"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/balance"
+                android:layout_width="78dp"
+                android:layout_height="12dp"
+                android:layout_below="@+id/expences"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal|top"
+                android:text="@string/balance"
+                android:textAppearance="@style/balance"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame_187"
+            android:layout_width="114.33dp"
+            android:gravity="center"
+            android:layout_height="64dp"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:id="@+id/incomings_value"
+                android:layout_width="98.33dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal|top"
+                android:text="@string/incomings_value"
+                android:textAppearance="@style/incomings_value"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/incomings"
+                android:layout_width="78dp"
+                android:layout_height="12dp"
+                android:layout_below="@+id/incomings_value"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal|top"
+                android:text="@string/incomings"
+                android:textAppearance="@style/incomings"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame_188"
+            android:layout_width="114.33dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="228.66dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/cashback_value"
+                android:layout_width="98.33dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal|top"
+                android:text="@string/cashback_value"
+                android:textAppearance="@style/cashback_value"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cashback"
+                android:layout_width="78dp"
+                android:layout_height="12dp"
+                android:layout_below="@+id/cashback_value"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal|top"
+                android:text="@string/cashback"
+                android:textAppearance="@style/cashback"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame_196"
+        android:layout_width="320dp"
+        android:layout_height="344dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="206dp">
+        1
+
+        <RelativeLayout
+            android:id="@+id/frame_195"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/type_id"
+                android:layout_width="118dp"
+                android:layout_height="18dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5sp"
+                android:gravity="center_horizontal|top"
+                android:text="@string/type_id"
+                android:textAppearance="@style/type_id"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cost_id"
+                android:layout_width="125dp"
+                android:layout_height="48dp"
+                android:layout_below="@+id/type_id"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5sp"
+                android:gravity="center_horizontal|top"
+                android:text="@string/cost_id"
+                android:textAppearance="@style/cost_id"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/azn_month"
+                android:layout_width="92dp"
+                android:layout_height="16dp"
+                android:layout_below="@+id/cost_id"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5sp"
+                android:gravity="center_horizontal|top"
+                android:text="@string/azn_month"
+                android:textAppearance="@style/azn_month"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/view_statem"
+                android:layout_width="113dp"
+                android:layout_height="48dp"
+                android:layout_below="@+id/azn_month"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5sp"
+                android:gravity="center_horizontal|top"
+                android:onClick="goToDetailActivity"
+                android:text="@string/view_statem"
+                android:textAppearance="@style/view_statem"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+        </RelativeLayout>
+    </RelativeLayout>
+<!--
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+    android:layout_width="105dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="32dp"
+        android:background="@color/white"
+        android:layout_height="65dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:text="Year"
+            android:inputType="none"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="222dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="150dp"
+        android:background="@color/white"
+        android:layout_marginTop="32dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoComplete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:inputType="none"
+            android:text="Month"
+            android:textColor="@color/black"
+            tools:ignore="TouchTargetSizeCheck,DuplicateClickableBoundsCheck,DuplicateClickableBoundsCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="222dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="560dp"
+        android:background="@color/white">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteToEnd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:inputType="none"
+            android:text="Categories"
+            android:textColor="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+-->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Stats"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/btn_bg"
+        android:id="@+id/selectBtn1"
+        android:layout_width="105dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Year"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/btn_bg"
+        android:id="@+id/selectBtn2"
+        android:layout_width="222dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="32dp"
+        android:text="Month"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/selectBtn3"
+        android:layout_width="222dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/btn_bg"
+        android:text="Categories"
+        android:textColor="@color/black" />
+</RelativeLayout>
